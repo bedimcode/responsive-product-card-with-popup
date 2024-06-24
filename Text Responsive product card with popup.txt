@@ -1,0 +1,50 @@
+========== CARD ==========
+.container__title
+Select Your Product
+
+.card__name .card__price
+Monitor
+$299
+
+Speakers
+$119
+
+Cooling Fan
+$59
+
+Keyboard
+$39
+
+GPU Graphics
+$799
+
+Connection USB
+$19
+
+========== MODAL POPUP ==========
+.modal__name .modal price
+Monitor
+$299
+
+Speakers
+$119
+
+Cooling Fan
+$59
+
+Keyboard
+$39
+
+GPU Graphics
+$799
+
+Connection USB
+$19
+
+.modal__info
+Computer product in the best brand 
+and of good quality at a good price.
+
+.modal__button
+Buy Now
+Add to Cart
