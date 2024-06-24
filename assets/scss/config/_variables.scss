@@ -1,0 +1,40 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root{
+   /*========== Colors ==========*/
+   /*Color mode HSL(hue, saturation, lightness)*/
+   --first-color: hsl(5, 95%, 58%);
+   --first-color-alt: hsl(5, 90%, 50%);
+   --title-color: hsl(5, 15%, 15%);
+   --text-color: hsl(5, 8%, 35%);
+   --white-color: hsl(0, 0%, 100%);
+   --body-color: hsl(5, 100%, 98%);
+
+   /*========== Font and typography ==========*/
+   /*.5rem = 8px | 1rem = 16px ...*/
+   --body-font: "Montserrat", sans-serif;
+
+   --h1-font-size: 1.5rem;
+   --h2-font-size: 1.25rem;
+   --h3-font-size: 1rem;
+   --normal-font-size: .938rem;
+
+   // Responsive typography
+   @media screen and (min-width: 1150px){
+      --h1-font-size: 2.25rem;
+      --h2-font-size: 1.5rem;
+      --h3-font-size: 1.25rem;
+      --normal-font-size: 1rem;
+   }
+
+	/*========== Font weight ==========*/
+   --font-regular: 400;
+   --font-semi-bold: 600;
+   --font-bold: 700;
+
+	/*========== z index ==========*/
+   --z-normal: 1;
+   --z-modal: 1000;
+}
